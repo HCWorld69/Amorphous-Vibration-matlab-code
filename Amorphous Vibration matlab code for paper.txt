@@ -1,0 +1,13 @@
+Here's my MATLAB cod for the equations used from paper :
+Moon, Jaeyun, Benoit Latour, and Austin J. Minnich. "Propagating elastic vibrations dominate thermal conduction in amorphous silicon." Physical Review B 97.2 (2018): 024201.
+
+
+We begin our analysis to gain more insight into the vibrations carrying heat by characterizing the propagating nature of the normal modes of vibration of the amorphous domain. A convenient metric for this characterization is the dynamic structure factor, given by
+$$
+S_{L, T}(\boldsymbol{q}, \omega)=\sum_v E_{L, T}(\boldsymbol{q}, \nu) \delta(\omega-\omega(\boldsymbol{q}=\mathbf{0}, \nu)),
+$$
+where the $\boldsymbol{q}$ is phonon wave vector, $\omega$ is frequency, and the summation is over all the modes $v$ at gamma point. $E_L$ and $E_T$ refer to the longitudinal polarization and transverse polarization and are defined as
+$$
+E_{L, T}(\boldsymbol{q}, v)=\left|\sum_i u_i^{L, T} e^{i \boldsymbol{q} \cdot \boldsymbol{r}_i}\right|^2,
+$$
+where the summation is over all atoms indexed by $i$ in the domain and $\boldsymbol{r}_i$ are the equilibrium positions. Here $u_i^L=\hat{\boldsymbol{q}} \cdot \boldsymbol{e}(v, i)$ and $u_i^T=\hat{\boldsymbol{q}} \times \boldsymbol{e}(\nu, i)$, where $\hat{\boldsymbol{q}}$ is a unit vector and $\boldsymbol{e}(v, i)$ is the eigenvector. The dynamic structure factor is precisely what is measured in scattering experiments to measure dispersion relations in crystals and can be applied to search for plane waves in disordered media.
